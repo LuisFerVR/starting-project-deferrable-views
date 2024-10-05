@@ -25,7 +25,7 @@
     <h2>What Does This Course Offer?</h2>
   </header>
 
-  <p>
+  <p #ejemplo>
     This course will teach you all the fundamentals about components, templates,
     directives, databinding, routing, HTTP access and much more! We will take a
     lot of deep dives and build multiple demo projects along the way. All
@@ -40,7 +40,7 @@
     TypeScript concepts which are especially important for Angular developers!
   </p>
 </section>
-@defer(on interaction){
+@defer(on interaction(ejemplo)) {
   <app-offer-preview />
 }@placeholder {
   <div class="placeholder">
