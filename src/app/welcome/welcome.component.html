@@ -40,5 +40,10 @@
     TypeScript concepts which are especially important for Angular developers!
   </p>
 </section>
-
-<app-offer-preview />
+@defer(on viewport){
+  <app-offer-preview />
+}@placeholder {
+  <div class="placeholder">
+    <p>Loading...</p>
+  </div>
+}
